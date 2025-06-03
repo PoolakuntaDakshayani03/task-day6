@@ -25,4 +25,4 @@ This is a responsive and attractive contact form built with HTML, CSS, and JavaS
 - Vanilla JavaScript (DOM, regex, event handling)
 
 ## 👨‍💻 Author
-[Your Name Here]
+Poolakunta Dakshayani
