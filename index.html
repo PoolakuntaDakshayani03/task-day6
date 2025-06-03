@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form id="contactForm" class="form-box">
+      <h2>Contact Us</h2>
+
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name">
+        <span class="error" id="nameError"></span>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com">
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message here..."></textarea>
+        <span class="error" id="messageError"></span>
+      </div>
+
+      <button type="submit">Send Message</button>
+      <div id="successMessage"></div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
